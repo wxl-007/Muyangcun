@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{25E13F9A-4CC9-555A-F018-54069B9463DA}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>E:/Unity4.6.1/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>E:/Unity4.6.1/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\MultiPlatformToolSuite\Scripts\AspectRatios.cs" />
+     <Compile Include="Assets\MultiPlatformToolSuite\Scripts\MeshSwapExample.cs" />
+     <Compile Include="Assets\MultiPlatformToolSuite\Scripts\PlatformSpecifics.cs" />
+     <Compile Include="Assets\MultiPlatformToolSuite\Scripts\Platforms.cs" />
+     <Compile Include="Assets\MultiPlatformToolSuite\Scripts\RenderQueueSorter.cs" />
+     <Compile Include="Assets\MultiPlatformToolSuite\Scripts\VerySimpleXml.cs" />
+     <Compile Include="Assets\_Scripts\AchievementsFuction.cs" />
+     <Compile Include="Assets\_Scripts\ActionManager.cs" />
+     <Compile Include="Assets\_Scripts\BackGroundRoll.cs" />
+     <Compile Include="Assets\_Scripts\BounsAddController.cs" />
+     <Compile Include="Assets\_Scripts\CameraFocus.cs" />
+     <Compile Include="Assets\_Scripts\CarTrigger.cs" />
+     <Compile Include="Assets\_Scripts\DetailController.cs" />
+     <Compile Include="Assets\_Scripts\FinishLine.cs" />
+     <Compile Include="Assets\_Scripts\GUIController.cs" />
+     <Compile Include="Assets\_Scripts\GameController.cs" />
+     <Compile Include="Assets\_Scripts\GameGUI.cs" />
+     <Compile Include="Assets\_Scripts\GlobalManager.cs" />
+     <Compile Include="Assets\_Scripts\InputController.cs" />
+     <Compile Include="Assets\_Scripts\LevelAchievement.cs" />
+     <Compile Include="Assets\_Scripts\LevelParam.cs" />
+     <Compile Include="Assets\_Scripts\LoadingControll.cs" />
+     <Compile Include="Assets\_Scripts\LockController.cs" />
+     <Compile Include="Assets\_Scripts\Pause.cs" />
+     <Compile Include="Assets\_Scripts\PlaceVegetable.cs" />
+     <Compile Include="Assets\_Scripts\PopScore.cs" />
+     <Compile Include="Assets\_Scripts\RequestControll.cs" />
+     <Compile Include="Assets\_Scripts\ScoreController.cs" />
+     <Compile Include="Assets\_Scripts\SoundController.cs" />
+     <Compile Include="Assets\_Scripts\SplashController.cs" />
+     <Compile Include="Assets\_Scripts\StarAreaManager.cs" />
+     <Compile Include="Assets\_Scripts\SunshineRotate.cs" />
+     <Compile Include="Assets\_Scripts\TestController.cs" />
+     <Compile Include="Assets\_Scripts\TractorControl.cs" />
+     <Compile Include="Assets\_Scripts\TutorialAnimationControl.cs" />
+     <Compile Include="Assets\_Scripts\UI\GUICameraController.cs" />
+     <Compile Include="Assets\_Scripts\UI\IAPController.cs" />
+     <Compile Include="Assets\_Scripts\UI\MenuController.cs" />
+     <Compile Include="Assets\_Scripts\UI\Purches.cs" />
+     <Compile Include="Assets\_Scripts\UI\UIAchievement.cs" />
+     <Compile Include="Assets\_Scripts\UI\UIAnimal.cs" />
+     <Compile Include="Assets\_Scripts\UI\UIBigLevel.cs" />
+     <Compile Include="Assets\_Scripts\UI\UIDriver.cs" />
+     <Compile Include="Assets\_Scripts\UI\UISmallLevel.cs" />
+     <Compile Include="Assets\_Scripts\UI\UITractor.cs" />
+     <Compile Include="Assets\_Scripts\Vegetable.cs" />
+     <Compile Include="Assets\_Scripts\VegetableController.cs" />
+     <Compile Include="Assets\_Scripts\VolControll.cs" />
+     <Compile Include="Assets\_Scripts\wheelController.cs" />
+     <Compile Include="Assets\e2d\Generator\e2dCurveMethods.cs" />
+     <Compile Include="Assets\e2d\Generator\e2dMidpoint.cs" />
+     <Compile Include="Assets\e2d\Generator\e2dPerlinNoise.cs" />
+     <Compile Include="Assets\e2d\Generator\e2dPerlinOctave.cs" />
+     <Compile Include="Assets\e2d\Generator\e2dVoronoi.cs" />
+     <Compile Include="Assets\e2d\Terrain\e2dMeshObject.cs" />
+     <Compile Include="Assets\e2d\Terrain\e2dTerrainBoundary.cs" />
+     <Compile Include="Assets\e2d\Terrain\e2dTerrainColliderMesh.cs" />
+     <Compile Include="Assets\e2d\Terrain\e2dTerrainCurveMesh.cs" />
+     <Compile Include="Assets\e2d\Terrain\e2dTerrainDataTypes.cs" />
+     <Compile Include="Assets\e2d\Terrain\e2dTerrainFillMesh.cs" />
+     <Compile Include="Assets\e2d\Terrain\e2dTerrainGrassMesh.cs" />
+     <Compile Include="Assets\e2d\Terrain\e2dTerrainMesh.cs" />
+     <Compile Include="Assets\e2d\Terrain\e2dTriangulator.cs" />
+     <Compile Include="Assets\e2d\Utils\e2dConstants.cs" />
+     <Compile Include="Assets\e2d\Utils\e2dUtils.cs" />
+     <Compile Include="Assets\e2d\doxygen.cs" />
+     <Compile Include="Assets\e2d\e2dTerrain.cs" />
+     <Compile Include="Assets\e2d\e2dTerrainGenerator.cs" />
+     <None Include="Assets\Resources\Android\res\values\styles.xml" />
+     <None Include="Assets\Resources\Android\res\values-v11\styles.xml" />
+     <None Include="Assets\_Artworks\fonts\bouns.txt" />
+     <None Include="Assets\Plugins\AnBSoft Common\Standard Font\Arial, Fancy.txt" />
+     <None Include="Assets\e2d\Resources\Fill.shader" />
+     <None Include="Assets\e2d\Resources\Curve.shader" />
+     <None Include="Assets\_Artworks\fonts\ArialBlack.txt" />
+     <None Include="Assets\Plugins\AnBSoft Common\Standard Shaders\Sprite Vertex Colored, Fast.shader" />
+     <None Include="Assets\_Artworks\fonts\GameFont.txt" />
+     <None Include="Assets\Resources\Android\res\values\strings.xml" />
+     <None Include="Assets\Plugins\AnBSoft Common\Standard Shaders\Sprite Simple Texture .shader" />
+     <None Include="Assets\Resources\Android\res\values-v14\styles.xml" />
+     <None Include="Assets\e2d\VERSION.txt" />
+     <None Include="Assets\MultiPlatformToolSuite\Editor\Build Resources\PostProcessAppleScript.txt" />
+     <None Include="Assets\Plugins\AnBSoft Common\Standard Shaders\Sprite Cutout.shader" />
+     <None Include="Assets\e2d\LICENSE.txt" />
+     <None Include="Assets\____Doc\LevelsHistory.txt" />
+     <None Include="Assets\MultiPlatformToolSuite\readme.txt" />
+     <None Include="Assets\_ArtMHZY\_Font\CHNFontWhite\CHNFontW.txt" />
+     <None Include="Assets\_ArtMHZY\_Font\_3500Font\3500Font.txt" />
+     <None Include="Assets\_ArtMYC\fonts\MYCFont.txt" />
+     <None Include="Assets\_ArtMHZY\_Font\ChineseDefault\CHNFont.txt" />
+     <None Include="Assets\Plugins\AnBSoft Common\Standard Shaders\Sprite Vertex Colored.shader" />
+     <None Include="Assets\____Doc\Requirements.txt" />
+     <None Include="Assets\_ArtMHZY\_Font\3500FontText.txt" />
+     <None Include="Assets\Resources\Android\res\layout\activity_main.xml" />
+     <None Include="Assets\Resources\Android\AndroidManifest.xml" />
+     <None Include="Assets\MultiPlatformToolSuite\Editor\AssetSettings\AssetSettings.xml" />
+     <None Include="Assets\____Doc\Requirements-bak.txt" />
+     <None Include="Assets\e2d\Resources\Grass.shader" />
+     <None Include="Assets\Resources\Android\res\menu\activity_main.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>E:/Unity4.6.1/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

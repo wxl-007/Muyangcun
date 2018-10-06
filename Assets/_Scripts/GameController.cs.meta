@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: a3efeef8a662a43f283d1199cb59e762
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - nextLevelTexture: {fileID: 2800000, guid: 4fc33dfccd11050441008248c3b58615, type: 1}
+  - replayTexture: {fileID: 2800000, guid: 5400c49d47a0db841a785cfcdd5ca1d0, type: 1}
+  executionOrder: 0
+  icon: {instanceID: 0}
